@@ -4,8 +4,6 @@
 //                /     |     \
 //              Map    Seq    Set
 
-
-
 //List (Seq)
 val list = List(1,2,3,4,5,6)
 val list2 = 5 ::list
@@ -42,7 +40,7 @@ val set4 = Set(1, 1, 1)
 //tuples
 val tuple = (1, "Foo", true, "Bar")
 //Looping
-§val bagOfHolding = List(2, "Baz", false, "Bar")
+val bagOfHolding = List(2, "Baz", false, "Bar")
 //foreach
 bagOfHolding.foreach(println(_))
 

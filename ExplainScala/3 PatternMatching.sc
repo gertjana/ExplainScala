@@ -1,3 +1,9 @@
+def howManyBeersDidIHave(beers:Int):String = beers match {
+  case 1 => "one beer"
+  case 2 => "two beers"
+  case _ => "many beers"
+}
+
 case class Book(title:String, author:String, published:Long)
 val pis = Book("Programming in Scala", "Martin Odersky", 2010)
 val sfti = Book("Scala for the Impatient", "Cay Horstmann", 2012)
