@@ -2,3 +2,6 @@ project/target/
 target/
 .idea
 .idea_modules
+.project
+.settings
+.classpath

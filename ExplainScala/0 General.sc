@@ -6,7 +6,13 @@ val d = a.+(4)
 val e = 1 + 2
 
 //definitions, java vs scala syntax
-def divide(a:Double, b:Double):Double     = if (b == 0) a else a / b
+def divide(a:Double, b:Double):Double = {
+  if (b == 0) {
+    return a;
+  } else {
+    return a / b;
+  }
+}
 def add(a:Double, b:Double):Double        = a + b
 def substract(a:Double, b:Double):Double  = a - b
 def multiply(a:Double, b:Double):Double   = a * b
