@@ -9,7 +9,7 @@ Used in a Scala workshop presentated at SDL
 Intellij:
 * install sbt
 * install scala plugin in intellij
-* add sbt-plugin to projects/plugins.sbt (or global one ~/.sbt/[version]/plugins)
+* add sbt-plugin to projects/plugins.sbt (or global one ~/.sbt/[version]/plugins/build.sbt)
     `addSbtPlugin("com.github.mpeltonen" % "sbt-idea" % "1.6.0")`
 * clone project
 * from commandline run "sbt gen-idea"
@@ -18,7 +18,7 @@ Intellij:
 Eclipse:
 * install sbt
 * in scala plugin in eclipse
-* add sbt-plugin to projects/plugins.sbt (or global one ~/.sbt/[version]/plugins)
+* add sbt-plugin to projects/plugins.sbt (or global one ~/.sbt/[version]/plugins/build.sbt)
     `addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.4.0")`
 * clone project
 * from commandline run "sbt eclipse"
