@@ -44,6 +44,7 @@ time(currentTime)
 // ??? is Nothing (Bottom type)
 def notYetImplemented = ???
 
+ //hashcode
 val date = new java.util.Date()
 d.##
 
