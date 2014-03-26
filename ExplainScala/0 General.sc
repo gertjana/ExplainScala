@@ -3,7 +3,7 @@ val a:Int = 1 //immutable
 var b = 4 //mutable, use sparingly
 val c = a + 4
 val d = a.+(4)
-val e = 1.+2
+val e = 1 + 2
 
 //definitions, java vs scala syntax
 def divide(a:Double, b:Double):Double = {
@@ -44,4 +44,6 @@ time(currentTime)
 // ??? is Nothing (Bottom type)
 def notYetImplemented = ???
 
+val date = new java.util.Date()
+d.##
 
