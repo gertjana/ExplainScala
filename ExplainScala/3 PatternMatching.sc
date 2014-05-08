@@ -1,4 +1,5 @@
 def howManyBeersDidIHave(beers:Int):String = beers match {
+  case 0 => throw new NoBeerException()
   case 1 => "one beer"
   case 2 => "two beers"
   case _ => "many beers"
